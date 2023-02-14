@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="bingo">
+      <nav>
+        <img src="images/logo.svg" alt="" />
+
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+        <img src="images/favicon-32x32.png" alt="" class="fav" />
+      </nav>
+      <script>
+        const burger = document.querySelector(".navbar-burger");
+        const menu = document.querySelector(".navbar-menu");
+
+        burger.addEventListener("click", function () {
+          menu.classList.toggle("is-active");
+          burger.classList.toggle("is-active");
+        });
+      </script>
+      <div class="text">
+        <h1>We Are Creative</h1>
+      </div>
+      <div class="arrow">
+        <img src="images/icon-arrow-down.svg" alt="" />
+      </div>
+    </div>
+
+    <div class="fullcontainer">
+      <div class="secdiv">
+        <div class="div1">
+          <h2>Transform Your Brand</h2>
+          <span
+            >We are a full-service creative agency specializing in helping
+            brands grow fast. Engage your clients through compelling visuals
+            that do most of the marketing for you.</span
+          >
+          <h6 class="yellow-underline">Learn More...</h6>
+        </div>
+        <div class="div2">
+          <img src="images/desktop/image-stand-out.jpg" alt="" />
+        </div>
+      </div>
+      <div class="secdiv">
+        <div class="div2">
+          <img src="images/desktop/image-transform.jpg" alt="" />
+        </div>
+        <div class="div1">
+          <h2>Stand out to the right audience</h2>
+          <span
+            >Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.</span
+          >
+          <h6 class="yellow-underline">Learn More...</h6>
+          <style>
+            .yellow-underline {
+              text-decoration: none;
+              border-bottom: 2px solid yellow;
+              width: 18%;
+            }
+          </style>
+        </div>
+      </div>
+      <div class="thirddiv">
+        <div class="div3">
+          <h3>Photography</h3>
+          <span
+            >Increase your credibility by getting the most stunning, <br />
+            high-quality photos that improve your business image.</span
+          >
+        </div>
+        <div class="div4">
+          <h3>Graphic design</h3>
+          <span
+            >Great design makes you memorable. We deliver artwork that <br />
+            underscores your brand message and captures potential clients’
+            attention.</span
+          >
+        </div>
+      </div>
+      <div class="fourthdiv">
+        <div class="title"><h1>Client testimonials</h1></div>
+        <div class="numbers">
+          <div class="hh">
+            <img src="images/image-emily.jpg" alt="" />
+            <span
+              >We put our trust in Sunnyside and <br />
+              they delivered, making sure our needs <br />
+              were met and deadlines
+              <br />
+              were always hit.</span
+            >
+            <h5>Emily R.</h5>
+            <span>Marketing Director</span>
+          </div>
+          <div class="hhh">
+            <img src="images/image-jennie.jpg" alt="" />
+            <span
+              >Sunnyside’s enthusiasm coupled with their <br />
+              keen interest in our brand’s <br />
+              success made it a satisfying and enjoyable experience.</span
+            >
+            <h5>Thomas S.</h5>
+            <span>Chief Operating Officer</span>
+          </div>
+          <div class="hhhh">
+            <img src="images/image-thomas.jpg" alt="" />
+            <span
+              >Incredible end result! Our sales <br />
+              increased over 400% <br />
+              when we worked with Sunnyside. <br />
+              Highly recommended!</span
+            >
+            <h5>Jennie F.</h5>
+            <span> Business Owner About Services Projects Contact</span>
+          </div>
+        </div>
+      </div>
+      <div class="fifthdiv">
+        <img src="images/desktop/image-gallery-cone.jpg" alt="" />
+        <img src="images/desktop/image-gallery-milkbottles.jpg" alt="" />
+        <img src="images/desktop/image-gallery-orange.jpg" alt="" />
+        <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="" />
+      </div>
+      <div class="lastdiv">
+        <div class="logo"><img src="images/logo.svg" alt="" /></div>
+        <br /><br />
+        <div class="lol">
+          <p class="p1">About</p>
+          <p class="p2">Services</p>
+          <p class="p3">Contact</p>
+        </div>
+        <br /><br />
+        <div class="icons">
+          <img src="images/icon-facebook.svg" alt="" />
+          <img src="images/icon-instagram.svg" alt="" />
+          <img src="images/icon-pinterest.svg" alt="" />
+          <img src="images/icon-twitter.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

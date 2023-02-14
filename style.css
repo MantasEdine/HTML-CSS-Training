@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:ital,wght@0,600;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:ital,wght@0,600;1,500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: url(images/desktop/image-header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.fav {
+  display: none;
+}
+
+nav {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+nav > ul {
+  display: flex;
+  list-style: none;
+}
+nav > img {
+  padding: 20px;
+}
+ul li {
+  padding: 20px;
+}
+a:hover {
+  background-color: #fff;
+  padding: 10px 14px;
+  border-radius: 15px;
+  color: #111;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.arrow {
+  position: absolute;
+  left: 750px;
+  top: 330px;
+}
+.text {
+  position: absolute;
+  color: white;
+  font-family: "Fraunces";
+  font-weight: bold;
+  font-size: 2rem;
+  top: 200px;
+  left: 420px;
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+}
+.fullcontainer {
+  position: absolute;
+  top: 779px;
+  width: 100%;
+  height: 100%;
+}
+.firstdiv {
+  width: 100%;
+
+  display: flex;
+}
+.secdiv {
+  width: 100%;
+
+  display: flex;
+}
+.div1 {
+  width: 50%;
+  padding-top: 200px;
+  padding-left: 50px;
+}
+.div2 {
+  width: 50%;
+}
+.div2 > img {
+  width: 100%;
+  height: 100%;
+}
+span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding: 10px;
+}
+h2 {
+  font-family: "Fraunces";
+  font-size: 2.1rem;
+  padding: 10px;
+}
+h6 {
+  font-size: 16px;
+  padding: 10px;
+}
+.thirddiv {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.div3 {
+  width: 50%;
+  height: 100%;
+  background-image: url(images/desktop/image-photography.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.div4 {
+  width: 50%;
+  height: 100%;
+  background-image: url(IMAGES/desktop/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.div4 > h3 {
+  padding-top: 400px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2.1rem;
+  padding-bottom: 10px;
+  text-shadow: 1px 1px #333, 1px 1px #333, 2px 2px #333;
+  color: lightslategray;
+}
+.div3 > h3 {
+  padding-top: 400px;
+  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2.1rem;
+  padding-bottom: 10px;
+  text-shadow: 1px 1px #333, 1px 1px #333, 2px 2px #333;
+  color: lightslategray;
+}
+.fourthdiv {
+  width: 100%;
+  height: 100%;
+}
+.numbers {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 10px;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.hh > img {
+  border-radius: 50px;
+  width: 20%;
+  height: 20%;
+}
+.hhh > img {
+  border-radius: 50px;
+  width: 20%;
+  height: 20%;
+}
+.hhhh > img {
+  border-radius: 50px;
+  width: 20%;
+  height: 20%;
+}
+.hh {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  color: darkslategrey;
+}
+.hh > span {
+  font-size: 12px;
+  text-align: center;
+}
+.hhh {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hhhh {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hhh > span {
+  font-size: 12px;
+  text-align: center;
+}
+.hhhh > span {
+  font-size: 12px;
+  text-align: center;
+}
+.hh > h5 {
+  font-size: 18px;
+  text-align: center;
+}
+.hhh > h5 {
+  font-size: 18px;
+  text-align: center;
+}
+.hhhh > h5 {
+  font-size: 18px;
+  text-align: center;
+}
+.fifthdiv {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+.fifthdiv > img {
+  width: 25%;
+  height: 50%;
+  object-fit: cover;
+}
+.lastdiv {
+  width: 100%;
+  height: 30%;
+  background-color: #20b2aa;
+}
+.lol {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 2rem;
+}
+.logo {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p1 {
+  padding-right: 10px;
+  color: darkblue;
+}
+.p2 {
+  padding: 10px;
+  color: darkblue;
+}
+.p3 {
+  padding: 10px;
+  color: darkblue;
+}
+@media screen and (max-width: 768px) {
+  nav > ul > li {
+    display: none;
+  }
+  .fav {
+    display: flex;
+  }
+  body {
+    width: 700px;
+    height: 100vh;
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 110px;
+    left: 60px;
+    text-align: center;
+  }
+  .arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 325px;
+    left: 230px;
+    text-align: center;
+  }
+  .fullcontainer {
+    width: 100%;
+    height: 100%;
+  }
+  .secdiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+  }
+  .div1 {
+    width: 100%;
+    height: 100%;
+  }
+  .div2 {
+    width: 100%;
+    height: 100%;
+  }
+  .firstdiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+  }
+  .thieddiv {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: auto;
+  }
+  .div3 {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
